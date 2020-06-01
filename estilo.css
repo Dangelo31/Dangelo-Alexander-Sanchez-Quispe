@@ -1,0 +1,40 @@
+body {
+    background: green;
+    color: whitesmoke;
+}
+h1 {
+    background: white;
+    color: green;
+    font-size:50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    width: 65%;
+    max-width: 500%;
+    margin: 1.5em auto;
+}
+
+.content {
+    background: teal;
+    width: 50%;
+    max-width: 500%;
+    margin: 1.5em auto;
+
+    display: grid;
+    gap: 1.5em;
+    grid-template-columns: 4;
+}
+.content > .articulo,
+.content > .p{
+    padding: 25px;
+    border: 2px solid 
+}
+.datos{
+    background: black;
+    width: 50%;
+    max-width: 500%;
+    margin: 1.5em auto;
+}
+.made{
+    padding: 25px;
+    border: 2px solid 
+}
